@@ -5,4 +5,4 @@ spring:
     name:  cloud-config-center #注册进Eureka服务器的微服务名
     
 config: 
-  info: "master branch ,spring-cloud-config/config-dev.yml"
+  info: "master branch ,spring-cloud-config/config-dev.yml,Version=1"
