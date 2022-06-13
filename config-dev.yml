@@ -3,13 +3,6 @@
 spring:
   application:
     name:  cloud-config-center #注册进Eureka服务器的微服务名
-  cloud:
-    config:
-      server:
-        git:
-          uri: git@github.com:lmonat/springcloud-config.git #GitHub上面的git仓库名字
-          ####搜索目录
-          search-paths:
-            - springcloud-config
-      ####读取分支
-      label: master
+    
+config: 
+  info: "master branch ,spring-cloud-config/config-dev.yml"
